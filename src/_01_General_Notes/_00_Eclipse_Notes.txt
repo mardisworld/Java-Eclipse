@@ -1,0 +1,38 @@
+PART III - LAB WITH A PARTNER/INDIVIDUALLY
+
+Here's how the structure of your project will look.
+>Java_Library
+	>src
+		>_01_General Notes
+			_00_Eclipse_Notes.txt
+				-> TODO: Figure out how to change the background in Eclipse. Put a note in this file that tells how to do it.
+				Go to Eclipse Preferences, select General>Appearance>Colors and Fonts>Content Assist background color
+				
+				-> TODO: Figure out how to see and use a TODO List in Eclipse. Put a note on how to do it.
+						Go to Eclipse Preferences, select General>Appearance>
+				Go to Eclipse Preferences, select Java>Compiler>Task Tags>TODO
+				
+				Window>Show View>Tasks This will show all TODO tags. Double click on them and they will take your right to file. 
+				
+				-> TODO: Start figuring out a few common shortcuts and start making a list in this file. 
+						This will be a list you come back to and keep adding shortcuts as you learn them.
+						For instance, how do we get System.out.println to spit out without typing it all out?
+						How about the "main" function for classes?	
+						
+				* in front of file name tells you file is not saved
+				
+				To comment out: use Command + Slash
+				
+				To Import: Command O: import
+				
+				To Indent: Command + I
+				
+				To Delete: Command + D
+				
+				TO Auto-complete variable or function name: Command + Space
+				
+				System.out.println():  type sysout + Control + Space
+				
+				To Search: Command + H
+				
+				To Rename a variable or function (will rename all of them in file): Alt + Shift + R
