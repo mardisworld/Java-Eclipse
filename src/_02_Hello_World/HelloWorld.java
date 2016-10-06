@@ -1,14 +1,25 @@
 package _02_Hello_World;
 
+import _17_Encapsulation.ColtsPlayers; //this is from Package 17 on Ecapsulation
+import _18_Encapsulation_Proper.Player;
+
 public class HelloWorld {
 	
 	public static void main(String[] args)
 	{
+		ColtsPlayers aConstonzo=new ColtsPlayers(); //this is from Package 17 on Ecapsulation
+		aConstonzo.name="Anthony Costonzo"; //name is public
+		aConstonzo.setNumber(74); //number is private so need to import class (line 3)
+		aConstonzo.getNumber();		
+		System.out.println(aConstonzo.getNumber());
+		
 		System.out.println("Hello World");
-		System.out.print("Hellow World");
+		System.out.print("Hello World");
+		Player james = new Player("James", "Awesome", 600, "Very healthy");
+		Player paul = new Player("Paul", "tougher than nails", 600, "very healthy"); 
 	}
-
 }
+
 
 ///
 //>_02_HelloWorld
@@ -19,3 +30,9 @@ public class HelloWorld {
 //						#1 Hello World
 //						#2 Hello ->This will use a different method than #1.
 //						   World
+
+//I asked if constructors were public in main files since they are public in class file. 
+
+
+
+	

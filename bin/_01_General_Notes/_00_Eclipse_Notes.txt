@@ -36,3 +36,23 @@ Here's how the structure of your project will look.
 				To Search: Command + H
 				
 				To Rename a variable or function (will rename all of them in file): Alt + Shift + R
+				
+				\t	Inserts a tab in the text at this point.
+				
+				\b	Inserts a backspace in the text at this point.
+				
+				\n	Inserts a newline in the text at this point.
+
+				\r	Inserts a carriage return in the text at this point.
+				
+				\f	Inserts a form feed in the text at this point.
+				
+				\'	Inserts a single quote character in the text at this point.
+				
+				\"	Inserts a double quote character in the text at this point.
+				
+				\\	Inserts a backslash character in the text at this point.
+		
+		Classes. Useful to think about it as making cookies. 
+				
+		Classes are like cookie cutters. Classes are the cookies. The properties on the cookies (icing, eyes, noses, etc) can change. 

@@ -17,7 +17,7 @@ public class _03_silver_challenge {
 
 
 
-//SILVER:
+//SILVER done:
 //    Make a String containing the phrase "Soda Can". Then, do a search for subString method
 //    and use it to split the phrase into separate words and store them in strings. Print the two strings.
 //    The console should read: 

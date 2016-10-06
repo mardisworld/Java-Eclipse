@@ -28,5 +28,11 @@ public class _02_operators_relational {
 		//TODO create a password and check it
 		//Google how to test string equality in Java (probably uses three = signs}
 		
+		String password="LetMeIn";
+		if(password.equals("LetMeIn")){
+			System.out.println("Log in complete");
+		}
+		else System.out.println("Something went wrong with log in.");
+		
 		}
 }
