@@ -18,7 +18,7 @@ public class _05_fizz_buzz {
 					System.out.println("Fizz " + i);
 				}
 				else if (i%5==0) {
-					System.out.println(" Buzz " + i );
+					System.out.println("Buzz " + i );
 				}
 				else {
 					System.out.println(i);

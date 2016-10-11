@@ -19,8 +19,8 @@ public class _01_Array {
 		System.out.println(ages.length); //same as .size for an arrays list, but this is useful for a simple array
 		
 		//In Java and other type safe languages, Array elements all have to be the same type (all strings, or all int, or all double, etc.) 
-		
-		
+		//Array indices are 0-based; that is, they start from 0 to arrayRefVar.length-1.
+		//so double[10] will create an array of 10 doubles with indices from 0-9
 	}
 }
 

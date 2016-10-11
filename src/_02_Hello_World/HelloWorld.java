@@ -15,8 +15,8 @@ public class HelloWorld {
 		
 		System.out.println("Hello World");
 		System.out.print("Hello World");
-		Player james = new Player("James", "Awesome", 600, "Very healthy");
-		Player paul = new Player("Paul", "tougher than nails", 600, "very healthy"); 
+		ColtsPlayers james = new ColtsPlayers("James", "Awesome", 600, "Very healthy");
+		ColtsPlayers paul = new ColtsPlayers("Paul", "tougher than nails", 600, "very healthy"); 
 	}
 }
 

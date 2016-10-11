@@ -13,12 +13,12 @@ public class _03_ArrayListChallenge2_Gold {
 		for (int i=0;i<=10;i++) {	
 			nums.add(i+1); //initializes the array with 1-10
 			
-			System.out.println(sum + " + "); //prints sum
+			System.out.print(sum + " + "); //prints sum
 			sum= sum+=i;
-			System.out.println(i + " = ");
+			System.out.print(i + " = ");
 			System.out.println(" = " + sum + '\b');
 			
-			System.out.println('\n');
+			
 			
 			//System.out.println(nums.get(i));
 			//System.out.println(nums.add(i));  //   initializes nums(), so 0 1 2 3 4 5 6 7 8 9 10

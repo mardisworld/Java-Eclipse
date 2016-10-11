@@ -3,10 +3,14 @@ package _19_Friends_Challenge;
 public class Friend {
 
 		private String name;
-		private String state;
-		private int birthMonth;
-		private int birthDay;
-		private int birthYear;
+		int FriendNum;
+		Boolean OnlineStatus;
+		
+		
+	//	private String state;
+	//	private int birthMonth;
+	//	private int birthDay;
+	//	private int birthYear;
 		
 		//Constructor goes in class file. Constructors are public in the class name. 
 			//A constructor is a method that has the same name as the class itself - it builds our instances or objects of that class type
@@ -14,12 +18,12 @@ public class Friend {
 			//Now we are going to build a constructor that does more for us
 		 	//*having a constructor means that when you create a new object it has to have *all* the parameters
 		
-		Friend(String name, String state, int birthMonth, int birthDay, int birthYear) {
+		Friend(String name,  int FriendNum, Boolean OnlineStatus) {
 			this.name=name;			
-			this.state=state;				
-			this.birthMonth=birthMonth;
-			this.birthDay=birthDay;
-			this.birthYear=birthYear;
+	//		this.state=state;				
+	//		this.birthMonth=birthMonth;
+	//		this.birthDay=birthDay;
+	//		this.birthYear=birthYear;
 		}
 			
 			
@@ -30,46 +34,50 @@ public class Friend {
 				
 			}
 			
-			public String getState(){
-				return state;
-				//System.out.println(status); TODO//
+			public int getFriendNum(){
+				return FriendNum;
 			}
 				
-			public int getbirthMonth(){
-				return birthMonth;
+			public Boolean getOnlineStatus(){
+				return OnlineStatus;
 			}
 			
-			public int getbirthDay(){
-				return birthDay;
-			}
-			
-			public int getbirthYear(){
-				return birthYear;
-			}
+//			public int getbirthDay(){
+//				return birthDay;
+//			}
+//			
+//			public int getbirthYear(){
+//				return birthYear;
+//			}
 		
 			
 			
-			//Setters
+//			//Setters
+			
+			
 			public void setNewFriendName(String newName){
-				this.name=newName;	// dont' have to have this, can just say name=newName;//
+				this.name=newName;	// *dont' have to have this, can just say name=newName;//
 			}
-			
-			public void setState(String newState){
-				state=newState;	// dont' have to have this, can just say name=newName;//
+//			
+			public void setOnlineStatus(Boolean OnlineStatus){
+				this.OnlineStatus=OnlineStatus;	// dont' have to have this, can just say name=newName;//
 	
 			}
 			
-			public void setBirthMonth(int newBirthMonth){
-				this.birthMonth=newBirthMonth;
+			public void setFriendNum(int FriendNum){
+				this.FriendNum=FriendNum;
 			}
-			
-			public void setBirthDay(int newBirthDay){
-				this.birthDay=newBirthDay;
-			}
-	
-			public void setBirthYear(int newBirthYear){
-				this.birthYear=newBirthYear;
-			}
+//			public void setBirthMonth(int newBirthMonth){
+//				this.birthMonth=newBirthMonth;
+//			}
+//			
+//			public void setBirthDay(int newBirthDay){
+//				this.birthDay=newBirthDay;
+//			}
+//	
+//			public void setBirthYear(int newBirthYear){
+//				this.birthYear=newBirthYear;
+//			}
 		
 }
 

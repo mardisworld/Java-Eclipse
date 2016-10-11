@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		ColtsPlayers aLuck=new ColtsPlayers();
 		aLuck.name="Andrew Luck"; //public can access from outside the package if you import the package
-		aLuck.age=27; ////protected can access in that package
+		///aLuck.age=27; ////protected can access in that package
 	//	aLuck.number=38;//private can only access within the class, so you will get an error
 		aLuck.setNumber(38);
 		System.out.println(aLuck.getNumber());
